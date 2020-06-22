@@ -143,20 +143,19 @@ header {
 }
 
 .profile-icon img {
-  height: 50px;
+  height: 200px;
   float: left;
   margin-right: 10px;
   margin-bottom: 5px;
   border: solid black 1px;
   padding: 2px;
-  animation-name: image;
+  animation-name: profile-image;
   animation-duration: 4s;
 }
 
 .profile-icon p {
   width: 100%;
-  color: white;
-}
+ }
 
 .text-contents {
   width: 80%;
