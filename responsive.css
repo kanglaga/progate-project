@@ -1,0 +1,48 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .profile (
+    width: 50%;
+    margin-bottom: 50px;
+    )
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-wrapper {
+    text-align: left;
+  }
+
+  .profile {
+    width: 100%;
+  }
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 15px;
+  }
+}
