@@ -149,15 +149,6 @@ header {
   margin-bottom: 5px;
   border: solid black 1px;
   padding: 2px;
-  animation-name: profile-image;
-  animation-duration: 4s;
-  animation-iteration-count: 3;
-  
-}
-
-@keyframes profile-image {
-  from {heigth: 150px;}
-  to {height: 200px;}
 }
 
 .profile-icon p {
