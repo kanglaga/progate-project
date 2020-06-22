@@ -170,15 +170,3 @@ header {
   font-weight: normal;
 }
 
-.animation {
-  width: 100px;
-  height: 100px;
-  animation-name: foto;
-  animation-duration: 4s;
-  animation-iteration-count: 3;
-}
-
-@keyframes foto (
-from {width: 100px;}
-to {width: 200px;}
-}
