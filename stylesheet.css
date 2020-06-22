@@ -149,6 +149,13 @@ header {
   margin-bottom: 5px;
   border: solid black 1px;
   padding: 2px;
+  animation-name: foto;
+  animation-duration: 4s;
+}
+
+@keyframes foto {
+  from {height: 200px;}
+  to (height: 200px;}
 }
 
 .profile-icon p {
