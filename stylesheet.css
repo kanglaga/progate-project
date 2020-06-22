@@ -153,6 +153,11 @@ header {
   animation-duration: 4s;
 }
 
+@keyframes profile-image {
+  from {heigth: 200px;}
+  to {height: 100px;}
+}
+
 .profile-icon p {
   width: 100%;
  }
