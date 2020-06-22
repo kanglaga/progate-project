@@ -143,19 +143,14 @@ header {
 }
 
 .profile-icon img {
-  height: 300px;
+  height: 50px;
   float: left;
   margin-right: 10px;
   margin-bottom: 5px;
   border: solid black 1px;
   padding: 2px;
-  animation-name: foto;
+  animation-name: image;
   animation-duration: 4s;
-}
-
-@keyframes foto {
-  from {height: 300px;}
-  to (height: 50px;}
 }
 
 .profile-icon p {
