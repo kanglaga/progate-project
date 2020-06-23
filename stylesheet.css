@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(45, 52, 54,0.9);
   position :fixed;
   top: 0;
   z-index: 10;
@@ -128,42 +128,66 @@ header {
   text-align: justify;
 }
 
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
 .profile {
-  width: 100%;
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #bdc3c7;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  margin-bottom: 20px;
 }
 
-.profile-icon img {
-  height: 200px;
+.profile:hover {
+  box-shadow: 0 15px 15px rgba(0,0,0,.5);
+}
+
+.profile img {
+  width: 200px;
   float: left;
-  margin-right: 10px;
-  margin-bottom: 5px;
-  border: solid black 1px;
-  padding: 2px;
+  flex: 0 0 200px;
 }
 
-.profile-icon p {
-  width: 100%;
- }
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+.text-content {
+  padding-left: 20px;
 }
 
-.heading h3 {
-  font-weight: normal;
+.text-content h3 {
+  margin: 0;
+  padding-left: 0;
 }
 
+.text-content p {
+  margin: 0;
+  padding: 10px 0 0;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: rgba(39, 174, 96,0.9);
+  cursor: pointer;
+  box-shadow: 0 7px #708090;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer p {
+  font-size: 20px;
+  color: white;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(99, 110, 114,0.9);
+}
