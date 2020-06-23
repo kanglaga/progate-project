@@ -21,6 +21,11 @@
     text-align: left;
   }
 
+  .profile-icon {
+    width: 100%;
+    height: auto;
+  }
+  
   .profile {
     width: 100%;
   }
