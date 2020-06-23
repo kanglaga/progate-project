@@ -21,11 +21,10 @@
     text-align: left;
   }
 
-  .profile-icon {
-    width: 100%;
-    height: auto;
+  .profile-icon img {
+    width: 100px;
   }
-  
+
   .profile {
     width: 100%;
   }
@@ -43,6 +42,7 @@
     font-size: 24px;
     line-height: 36px;
   }
+
   .btn {
     width: 100%;
   }

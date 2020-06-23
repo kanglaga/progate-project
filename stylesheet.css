@@ -142,7 +142,7 @@ header {
   box-shadow: 0 15px 15px rgba(0,0,0,.5);
 }
 
-.profile img {
+.profile-icon img {
   width: 200px;
   float: left;
   flex: 0 0 200px;
